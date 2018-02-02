@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_1 = new System.Windows.Forms.Label();
-            this.lbl_2 = new System.Windows.Forms.Label();
-            this.lbl_3 = new System.Windows.Forms.Label();
-            this.lbl_4 = new System.Windows.Forms.Label();
-            this.lbl_5 = new System.Windows.Forms.Label();
-            this.lbl_6 = new System.Windows.Forms.Label();
-            this.lbl_7 = new System.Windows.Forms.Label();
-            this.lbl_8 = new System.Windows.Forms.Label();
-            this.lbl_9 = new System.Windows.Forms.Label();
-            this.lbl_10 = new System.Windows.Forms.Label();
-            this.lbl_11 = new System.Windows.Forms.Label();
-            this.lbl_12 = new System.Windows.Forms.Label();
-            this.lbl_13 = new System.Windows.Forms.Label();
+            this.lbl_Marks = new System.Windows.Forms.Label();
+            this.lbl_Title = new System.Windows.Forms.Label();
+            this.lbl_StudentName = new System.Windows.Forms.Label();
+            this.lbl_StudentNumber = new System.Windows.Forms.Label();
+            this.lbl_Group = new System.Windows.Forms.Label();
+            this.lbl_StudentMarks = new System.Windows.Forms.Label();
+            this.lbl_English = new System.Windows.Forms.Label();
+            this.lbl_Maths = new System.Windows.Forms.Label();
+            this.lbl_Science = new System.Windows.Forms.Label();
+            this.lbl_Results = new System.Windows.Forms.Label();
+            this.lbl_StudentDetails = new System.Windows.Forms.Label();
+            this.lbl_AverageMark = new System.Windows.Forms.Label();
+            this.lbl_StudentGrade = new System.Windows.Forms.Label();
             this.txt_StudentName = new System.Windows.Forms.TextBox();
             this.txt_StudentNumber = new System.Windows.Forms.TextBox();
             this.txt_Group = new System.Windows.Forms.TextBox();
@@ -55,131 +55,131 @@
             this.btn_Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lbl_1
+            // lbl_Marks
             // 
-            this.lbl_1.AutoSize = true;
-            this.lbl_1.Location = new System.Drawing.Point(12, 54);
-            this.lbl_1.Name = "lbl_1";
-            this.lbl_1.Size = new System.Drawing.Size(135, 13);
-            this.lbl_1.TabIndex = 0;
-            this.lbl_1.Text = "Please enter student marks";
+            this.lbl_Marks.AutoSize = true;
+            this.lbl_Marks.Location = new System.Drawing.Point(12, 54);
+            this.lbl_Marks.Name = "lbl_Marks";
+            this.lbl_Marks.Size = new System.Drawing.Size(135, 13);
+            this.lbl_Marks.TabIndex = 0;
+            this.lbl_Marks.Text = "Please enter student marks";
             // 
-            // lbl_2
+            // lbl_Title
             // 
-            this.lbl_2.AutoSize = true;
-            this.lbl_2.Location = new System.Drawing.Point(144, 9);
-            this.lbl_2.Name = "lbl_2";
-            this.lbl_2.Size = new System.Drawing.Size(81, 13);
-            this.lbl_2.TabIndex = 1;
-            this.lbl_2.Text = "Student Grades";
+            this.lbl_Title.AutoSize = true;
+            this.lbl_Title.Location = new System.Drawing.Point(144, 9);
+            this.lbl_Title.Name = "lbl_Title";
+            this.lbl_Title.Size = new System.Drawing.Size(81, 13);
+            this.lbl_Title.TabIndex = 1;
+            this.lbl_Title.Text = "Student Grades";
             // 
-            // lbl_3
+            // lbl_StudentName
             // 
-            this.lbl_3.AutoSize = true;
-            this.lbl_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_3.Location = new System.Drawing.Point(5, 84);
-            this.lbl_3.Name = "lbl_3";
-            this.lbl_3.Size = new System.Drawing.Size(98, 15);
-            this.lbl_3.TabIndex = 2;
-            this.lbl_3.Text = "Student Name";
+            this.lbl_StudentName.AutoSize = true;
+            this.lbl_StudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_StudentName.Location = new System.Drawing.Point(5, 84);
+            this.lbl_StudentName.Name = "lbl_StudentName";
+            this.lbl_StudentName.Size = new System.Drawing.Size(98, 15);
+            this.lbl_StudentName.TabIndex = 2;
+            this.lbl_StudentName.Text = "Student Name";
             // 
-            // lbl_4
+            // lbl_StudentNumber
             // 
-            this.lbl_4.AutoSize = true;
-            this.lbl_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_4.Location = new System.Drawing.Point(4, 109);
-            this.lbl_4.Name = "lbl_4";
-            this.lbl_4.Size = new System.Drawing.Size(111, 15);
-            this.lbl_4.TabIndex = 3;
-            this.lbl_4.Text = "Student Number";
+            this.lbl_StudentNumber.AutoSize = true;
+            this.lbl_StudentNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_StudentNumber.Location = new System.Drawing.Point(4, 109);
+            this.lbl_StudentNumber.Name = "lbl_StudentNumber";
+            this.lbl_StudentNumber.Size = new System.Drawing.Size(111, 15);
+            this.lbl_StudentNumber.TabIndex = 3;
+            this.lbl_StudentNumber.Text = "Student Number";
             // 
-            // lbl_5
+            // lbl_Group
             // 
-            this.lbl_5.AutoSize = true;
-            this.lbl_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_5.Location = new System.Drawing.Point(4, 131);
-            this.lbl_5.Name = "lbl_5";
-            this.lbl_5.Size = new System.Drawing.Size(46, 15);
-            this.lbl_5.TabIndex = 4;
-            this.lbl_5.Text = "Group";
+            this.lbl_Group.AutoSize = true;
+            this.lbl_Group.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Group.Location = new System.Drawing.Point(4, 131);
+            this.lbl_Group.Name = "lbl_Group";
+            this.lbl_Group.Size = new System.Drawing.Size(46, 15);
+            this.lbl_Group.TabIndex = 4;
+            this.lbl_Group.Text = "Group";
             // 
-            // lbl_6
+            // lbl_StudentMarks
             // 
-            this.lbl_6.AutoSize = true;
-            this.lbl_6.Location = new System.Drawing.Point(13, 152);
-            this.lbl_6.Name = "lbl_6";
-            this.lbl_6.Size = new System.Drawing.Size(153, 13);
-            this.lbl_6.TabIndex = 5;
-            this.lbl_6.Text = "Please enter the student marks";
+            this.lbl_StudentMarks.AutoSize = true;
+            this.lbl_StudentMarks.Location = new System.Drawing.Point(13, 152);
+            this.lbl_StudentMarks.Name = "lbl_StudentMarks";
+            this.lbl_StudentMarks.Size = new System.Drawing.Size(153, 13);
+            this.lbl_StudentMarks.TabIndex = 5;
+            this.lbl_StudentMarks.Text = "Please enter the student marks";
             // 
-            // lbl_7
+            // lbl_English
             // 
-            this.lbl_7.AutoSize = true;
-            this.lbl_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_7.Location = new System.Drawing.Point(9, 174);
-            this.lbl_7.Name = "lbl_7";
-            this.lbl_7.Size = new System.Drawing.Size(55, 15);
-            this.lbl_7.TabIndex = 6;
-            this.lbl_7.Text = "English";
+            this.lbl_English.AutoSize = true;
+            this.lbl_English.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_English.Location = new System.Drawing.Point(9, 174);
+            this.lbl_English.Name = "lbl_English";
+            this.lbl_English.Size = new System.Drawing.Size(55, 15);
+            this.lbl_English.TabIndex = 6;
+            this.lbl_English.Text = "English";
             // 
-            // lbl_8
+            // lbl_Maths
             // 
-            this.lbl_8.AutoSize = true;
-            this.lbl_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_8.Location = new System.Drawing.Point(10, 200);
-            this.lbl_8.Name = "lbl_8";
-            this.lbl_8.Size = new System.Drawing.Size(46, 15);
-            this.lbl_8.TabIndex = 7;
-            this.lbl_8.Text = "Maths";
+            this.lbl_Maths.AutoSize = true;
+            this.lbl_Maths.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Maths.Location = new System.Drawing.Point(10, 200);
+            this.lbl_Maths.Name = "lbl_Maths";
+            this.lbl_Maths.Size = new System.Drawing.Size(46, 15);
+            this.lbl_Maths.TabIndex = 7;
+            this.lbl_Maths.Text = "Maths";
             // 
-            // lbl_9
+            // lbl_Science
             // 
-            this.lbl_9.AutoSize = true;
-            this.lbl_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_9.Location = new System.Drawing.Point(10, 223);
-            this.lbl_9.Name = "lbl_9";
-            this.lbl_9.Size = new System.Drawing.Size(58, 15);
-            this.lbl_9.TabIndex = 8;
-            this.lbl_9.Text = "Science";
+            this.lbl_Science.AutoSize = true;
+            this.lbl_Science.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Science.Location = new System.Drawing.Point(10, 223);
+            this.lbl_Science.Name = "lbl_Science";
+            this.lbl_Science.Size = new System.Drawing.Size(58, 15);
+            this.lbl_Science.TabIndex = 8;
+            this.lbl_Science.Text = "Science";
             // 
-            // lbl_10
+            // lbl_Results
             // 
-            this.lbl_10.AutoSize = true;
-            this.lbl_10.Location = new System.Drawing.Point(15, 244);
-            this.lbl_10.Name = "lbl_10";
-            this.lbl_10.Size = new System.Drawing.Size(42, 13);
-            this.lbl_10.TabIndex = 9;
-            this.lbl_10.Text = "Results";
+            this.lbl_Results.AutoSize = true;
+            this.lbl_Results.Location = new System.Drawing.Point(15, 244);
+            this.lbl_Results.Name = "lbl_Results";
+            this.lbl_Results.Size = new System.Drawing.Size(42, 13);
+            this.lbl_Results.TabIndex = 9;
+            this.lbl_Results.Text = "Results";
             // 
-            // lbl_11
+            // lbl_StudentDetails
             // 
-            this.lbl_11.AutoSize = true;
-            this.lbl_11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_11.Location = new System.Drawing.Point(5, 267);
-            this.lbl_11.Name = "lbl_11";
-            this.lbl_11.Size = new System.Drawing.Size(105, 15);
-            this.lbl_11.TabIndex = 10;
-            this.lbl_11.Text = "Student Details";
+            this.lbl_StudentDetails.AutoSize = true;
+            this.lbl_StudentDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_StudentDetails.Location = new System.Drawing.Point(5, 267);
+            this.lbl_StudentDetails.Name = "lbl_StudentDetails";
+            this.lbl_StudentDetails.Size = new System.Drawing.Size(105, 15);
+            this.lbl_StudentDetails.TabIndex = 10;
+            this.lbl_StudentDetails.Text = "Student Details";
             // 
-            // lbl_12
+            // lbl_AverageMark
             // 
-            this.lbl_12.AutoSize = true;
-            this.lbl_12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_12.Location = new System.Drawing.Point(6, 291);
-            this.lbl_12.Name = "lbl_12";
-            this.lbl_12.Size = new System.Drawing.Size(94, 15);
-            this.lbl_12.TabIndex = 11;
-            this.lbl_12.Text = "Average Mark";
+            this.lbl_AverageMark.AutoSize = true;
+            this.lbl_AverageMark.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_AverageMark.Location = new System.Drawing.Point(6, 291);
+            this.lbl_AverageMark.Name = "lbl_AverageMark";
+            this.lbl_AverageMark.Size = new System.Drawing.Size(94, 15);
+            this.lbl_AverageMark.TabIndex = 11;
+            this.lbl_AverageMark.Text = "Average Mark";
             // 
-            // lbl_13
+            // lbl_StudentGrade
             // 
-            this.lbl_13.AutoSize = true;
-            this.lbl_13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_13.Location = new System.Drawing.Point(7, 316);
-            this.lbl_13.Name = "lbl_13";
-            this.lbl_13.Size = new System.Drawing.Size(99, 15);
-            this.lbl_13.TabIndex = 12;
-            this.lbl_13.Text = "Student Grade";
+            this.lbl_StudentGrade.AutoSize = true;
+            this.lbl_StudentGrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_StudentGrade.Location = new System.Drawing.Point(7, 316);
+            this.lbl_StudentGrade.Name = "lbl_StudentGrade";
+            this.lbl_StudentGrade.Size = new System.Drawing.Size(99, 15);
+            this.lbl_StudentGrade.TabIndex = 12;
+            this.lbl_StudentGrade.Text = "Student Grade";
             // 
             // txt_StudentName
             // 
@@ -288,19 +288,19 @@
             this.Controls.Add(this.txt_Group);
             this.Controls.Add(this.txt_StudentNumber);
             this.Controls.Add(this.txt_StudentName);
-            this.Controls.Add(this.lbl_13);
-            this.Controls.Add(this.lbl_12);
-            this.Controls.Add(this.lbl_11);
-            this.Controls.Add(this.lbl_10);
-            this.Controls.Add(this.lbl_9);
-            this.Controls.Add(this.lbl_8);
-            this.Controls.Add(this.lbl_7);
-            this.Controls.Add(this.lbl_6);
-            this.Controls.Add(this.lbl_5);
-            this.Controls.Add(this.lbl_4);
-            this.Controls.Add(this.lbl_3);
-            this.Controls.Add(this.lbl_2);
-            this.Controls.Add(this.lbl_1);
+            this.Controls.Add(this.lbl_StudentGrade);
+            this.Controls.Add(this.lbl_AverageMark);
+            this.Controls.Add(this.lbl_StudentDetails);
+            this.Controls.Add(this.lbl_Results);
+            this.Controls.Add(this.lbl_Science);
+            this.Controls.Add(this.lbl_Maths);
+            this.Controls.Add(this.lbl_English);
+            this.Controls.Add(this.lbl_StudentMarks);
+            this.Controls.Add(this.lbl_Group);
+            this.Controls.Add(this.lbl_StudentNumber);
+            this.Controls.Add(this.lbl_StudentName);
+            this.Controls.Add(this.lbl_Title);
+            this.Controls.Add(this.lbl_Marks);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -310,19 +310,19 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbl_1;
-        private System.Windows.Forms.Label lbl_2;
-        private System.Windows.Forms.Label lbl_3;
-        private System.Windows.Forms.Label lbl_4;
-        private System.Windows.Forms.Label lbl_5;
-        private System.Windows.Forms.Label lbl_6;
-        private System.Windows.Forms.Label lbl_7;
-        private System.Windows.Forms.Label lbl_8;
-        private System.Windows.Forms.Label lbl_9;
-        private System.Windows.Forms.Label lbl_10;
-        private System.Windows.Forms.Label lbl_11;
-        private System.Windows.Forms.Label lbl_12;
-        private System.Windows.Forms.Label lbl_13;
+        private System.Windows.Forms.Label lbl_Marks;
+        private System.Windows.Forms.Label lbl_Title;
+        private System.Windows.Forms.Label lbl_StudentName;
+        private System.Windows.Forms.Label lbl_StudentNumber;
+        private System.Windows.Forms.Label lbl_Group;
+        private System.Windows.Forms.Label lbl_StudentMarks;
+        private System.Windows.Forms.Label lbl_English;
+        private System.Windows.Forms.Label lbl_Maths;
+        private System.Windows.Forms.Label lbl_Science;
+        private System.Windows.Forms.Label lbl_Results;
+        private System.Windows.Forms.Label lbl_StudentDetails;
+        private System.Windows.Forms.Label lbl_AverageMark;
+        private System.Windows.Forms.Label lbl_StudentGrade;
         private System.Windows.Forms.TextBox txt_StudentName;
         private System.Windows.Forms.TextBox txt_StudentNumber;
         private System.Windows.Forms.TextBox txt_Group;
